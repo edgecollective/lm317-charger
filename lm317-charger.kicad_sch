@@ -1020,6 +1020,12 @@
 		(uuid "8d3af14e-0799-4eef-8a46-5c6e64464a25")
 	)
 	(junction
+		(at 115.57 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ef085e-007b-479c-85ef-0248af625afa")
+	)
+	(junction
 		(at 101.6 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1052,6 +1058,16 @@
 			(type default)
 		)
 		(uuid "01770bde-afc2-4ed3-85cc-ac59980e921d")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e084987-4479-4475-96ea-33a565a41416")
 	)
 	(wire
 		(pts
@@ -1235,7 +1251,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 86.36) (xy 118.11 86.36)
+			(xy 111.76 86.36) (xy 115.57 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1312,6 +1328,16 @@
 			(type default)
 		)
 		(uuid "e48b6493-a927-4cbf-9e04-3a4b911fddf0")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bd5193-8dba-4e79-a630-ee892a7a3f35")
 	)
 	(wire
 		(pts
@@ -1447,7 +1473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm"
 			(at 59.3852 87.63 0)
 			(effects
 				(font
@@ -1515,7 +1541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 85.09 103.378 90)
 			(effects
 				(font
@@ -1583,7 +1609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 40.64 78.74 0)
 			(effects
 				(font
@@ -1653,7 +1679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 148.59 76.2 0)
 			(effects
 				(font
@@ -1721,7 +1747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 95.25 77.978 90)
 			(effects
 				(font
@@ -1789,7 +1815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 121.92 88.138 90)
 			(effects
 				(font
@@ -1930,7 +1956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm"
 			(at 139.3952 83.82 0)
 			(effects
 				(font
@@ -2136,7 +2162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 85.09 94.488 90)
 			(effects
 				(font
@@ -2205,7 +2231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical"
 			(at 111.76 93.98 0)
 			(effects
 				(font
@@ -2276,7 +2302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:usual_switch"
 			(at 96.52 96.52 0)
 			(effects
 				(font
